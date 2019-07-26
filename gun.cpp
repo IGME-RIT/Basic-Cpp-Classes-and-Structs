@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <iostream>
 
 
-#include "..\header\gun.h"  // This cpp file will include the matching header file.
+#include "gun.h"  // This cpp file will include the matching header file.
                             // The convention for classes is to have declarations in the header, and definitions in the source file.
                             // This way, we can include the header anywhere, and use the functions before they are defined.
                             // When the cpp files are compiled, they define the functions that have already been declared in the headers.
